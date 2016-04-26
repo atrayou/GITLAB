@@ -11,8 +11,8 @@ int main(int argc, char *argv[])
   sscanf(argv[1], "%d", &nb);
   if(!nb) {
     fprintf(stderr, "Enter a positive number\n");
-    exit(EXIT_FAILURE);
+    exit(0);
   }
   printf("%s * %s = %d\n", argv[1], argv[1], nb * nb);
-  return EXIT_SUCCESS;
+  return 1;
 }
