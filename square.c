@@ -13,6 +13,6 @@ int main(int argc, char *argv[])
     fprintf(stderr, "Enter a positive number\n");
     exit(EXIT_FAILURE);
   }
-  printf("Square: %d\n", nb * nb);
+  printf("SQUARE: %d\n", nb * nb);
   return EXIT_SUCCESS;
 }
