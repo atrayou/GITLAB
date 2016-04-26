@@ -11,8 +11,8 @@ int main(int argc, char *argv[])
   sscanf(argv[1], "%d", &nb);
   if(nb == 0) {
     fprintf(stderr, "Enter a positive number\n");
-    exit(EXIT_FAILURE);
+    exit(0);
   }
   printf("SQUARE: %d\n", nb * nb);
-  return EXIT_SUCCESS;
+  return 1;
 }
